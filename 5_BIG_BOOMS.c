@@ -9,8 +9,9 @@
 #include <stdio.h>
 
 int main(){
-    int a = 5;
-    // a = scanf("How many booms? \n");
+    int a;
+    printf("How many booms?");
+    scanf("%d", &a);
     switch(a){
         case 5:
         printf("You get 5 Big Booms\nBoom!\n");
@@ -28,3 +29,7 @@ int main(){
     }
     return 0;
 }
+
+
+
+
